@@ -37,7 +37,7 @@ display(HTML(differ.diff_prettyHtml(diff)))
 
 Generates output of the form:
 
-<div><span>This is </span><del style="background:#ffe6e6;">som</del><ins style="background:#e6ffe6;">a piec</ins><span>e </span><ins style="background:#e6ffe6;">of </ins><span>text. With some</span><ins style="background:#e6ffe6;"> different</ins><span> words in it.</span></div>
+![](images/diffmatchpatch.png)
 
 ## `sidebyside`
 
@@ -58,6 +58,8 @@ show_diffs(x1a.replace('.','').lower(),x2a.replace('.','').lower(),
            'Excerpt from John Murray, *Handbook for Travellers in South Wales*')
 ```
 
+Generates output of the form:
+
 ![](images/side-by-side.png)
 ## Heatmap
 
@@ -72,5 +74,7 @@ from ouseful_diff_utils import heatmap
 
 heatmap.heatmap_differ(x1a, x2a)
 ```
+
+Generates output of the form:
 
 ![](images/heatmap.png)
