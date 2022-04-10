@@ -80,7 +80,7 @@ Generates output of the form:
 
 A bundling of the code found at https://towardsdatascience.com/simple-plagiarism-detection-in-python-2314ac3aee88
 
-The `heatmap()` function was originally created in order to highlight *similarities* between one text and another as an aid to identifying plagiarised fragaments form onw text in another.
+The `heatmap()` function was originally created in order to highlight *similarities* between one text and another as an aid to identifying plagiarised fragments from one text that appear in another.
 
 The heatmap display shows areas of the second text where the content is markedly similar to phrases or sentences in the first text.
 
