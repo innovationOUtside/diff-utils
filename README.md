@@ -12,6 +12,21 @@ This package bundles together (for convenience) several found scripts for displa
 
 Check the `examples` directory.
 
+## `difflib`
+
+We can use the core `difflib` packages to demonstrate line by line comparisons:
+
+```python
+from ouseful_diff_utils import difflib_html
+
+t1="import icanfly\nprint('here we are')\nprint('hello')\nprint('this taxt')."
+t2="import icanfly\nprint('here are')\nprint('hello there')\nprint('this text')."
+
+diff_line_table(t1, t2, "Col 1", "Col 2")
+```
+
+![](images/difflib_table.png)
+
 ## `diffmatchpatch`
 
 A bundling of the code found at https://github.com/google/diff-match-patch .
