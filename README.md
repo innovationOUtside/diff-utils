@@ -93,3 +93,10 @@ heatmap.heatmap_differ(x1a, x2a)
 Generates output of the form:
 
 ![](images/heatmap.png)
+
+
+## TO DO
+
+The following may also be of interest / relvance:
+
+- https://github.com/fbkarsdorp/alignment
